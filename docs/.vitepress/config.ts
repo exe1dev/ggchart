@@ -1,9 +1,10 @@
+// GG Chart modification (2026): docs title, description and links rebranded.
 import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: 'KLineChart Pro',
-  description: '基于KLineChart构建的开箱即用的金融图表',
+  title: 'GG Chart',
+  description: 'GG Chart — grafici gratuiti basati su KLineChart Pro',
   outDir: '../website',
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
@@ -20,7 +21,7 @@ export default defineConfig({
       lang: 'zh-CN',
       link: '/',
       themeConfig: {
-        nav: [{ text: '预览', link: 'https://preview.klinecharts.com' }],
+        nav: [{ text: '预览', link: 'https://github.com/exe1dev/ggchart' }],
         sidebar: [
           {
             text: '介绍',
@@ -65,7 +66,7 @@ export default defineConfig({
       lang: 'en-US',
       link: '/en-US/',
       themeConfig: {
-        nav: [{ text: 'Preview', link: 'https://preview.klinecharts.com/#en-US' }],
+        nav: [{ text: 'Preview', link: 'https://github.com/exe1dev/ggchart' }],
         sidebar: [
           {
             text: 'Introduction',
@@ -103,12 +104,12 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.svg',
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/klinecharts/pro' }
+      { icon: 'github', link: 'https://github.com/exe1dev/ggchart' }
     ],
 
     footer: {
       message: 'Released under the Apache License V2.',
-      copyright: 'Copyright © 2018-present liihuu'
+      copyright: 'Original code © 2018-present liihuu · GG Chart branding © 2026 GG Tracker'
     }
   }
 })

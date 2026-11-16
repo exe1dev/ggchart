@@ -1,0 +1,19 @@
+GG Chart
+GG Tracker branding and visual customization (2026).
+
+This project is a modified fork of KLineChart Pro, originally developed by liihuu.
+https://github.com/klinecharts/pro
+
+KLineChart Pro
+Original copyright (c) liihuu (copyright notices remain in source files)
+Licensed under the Apache License, Version 2.0.
+
+KLineChart (underlying chart engine; referenced as a dependency)
+Copyright (c) 2019 lihu
+https://github.com/klinecharts/KLineChart
+
+Upstream KLineChart NOTICE lists:
+TradingView Lightweight Charts
+Copyright (c) 2019 TradingView, Inc. https://www.tradingview.com
+
+See LICENSE for Apache License 2.0. Original copyright and license notices in source files are retained. Branding and documentation files modified by GG Tracker in 2026 are marked as modified.
